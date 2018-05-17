@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Explosion
   - Fire
+  - CANNON
   layers:
   - Default
   - TransparentFX
