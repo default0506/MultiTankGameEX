@@ -172,6 +172,7 @@ a7cb9bf6012b77cbbb788ad624cdc78d Assembly-CSharp.dll:.Cannon
 d7c3cc9e6aeec9a00634f6abffbe35e2 Assembly-CSharp.dll:.ConnectAndJoinRandom
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BillboardCanvas
 6e714b24188cddfc9ae1e07d05ed4ddd Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ParticleSystemDestroyer
 879b3df2ab67cfd00172f75f85a7a583 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.SimpleMouseRotator
 c7790408002dd6c0c359a055959ef579 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Aeroplane.AeroplaneAudio
@@ -183,7 +184,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 69f05d94227d8676c14071b3dbe1b417 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.DragRigidbody
 75d2fe170f6325c56c4a810c6ff64ba0 Assembly-CSharp.dll:.DemoOwnershipGui
-4d9e68f74b2d1027689342dd88304b96 Assembly-CSharp.dll:.PhotonInit
+1d569c8735a903bc3a23d2ca9881c7fc Assembly-CSharp.dll:.PhotonInit
 e0d7152ecf22ae2a833ea3b9acd8d0a2 Assembly-CSharp.dll:.WorkerInGame
 e626bae268f8b272b7a2d07760d262c6 Assembly-CSharp.dll:.PickupController
 1356b4a6096c35c829823b7e28399030 Assembly-CSharp.dll:.HubGui
@@ -200,10 +201,12 @@ a2efb0db652b8114d1ae7dd9a600d626 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 8add7944724b2305a45c386f15eacb7e Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Aeroplane.AeroplaneAiControl
 fe76270bd84ec3b6f2f6f92c69cf69da Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.AxisTouchButton
 307d9f491fea791345eb6aa66e84c179 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.CameraFollow
+70e30c18309be49b446eead3dd7930ca Assembly-CSharp.dll:.RoomData
 96e7294f11e4ae1fe77dd4bcd658b56d Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.LookatTarget
 4ce2b1853c9a392b036a6a654be90ccb Assembly-CSharp.dll:.OnClickInstantiate
 a7a85e3660316548e6df72942099a49d Assembly-CSharp.dll:.MessageOverlay
 a7d3c6c6948d99dd4116e659ddcf5ac4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.ButtonHandler
+3d3bd5391d1e7d2ba21aeefd6b337c5f Assembly-CSharp.dll:.DisplayUserId
 83877f03b51b3b13fa0d6c51291e0575 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.FirstPerson.HeadBob
 293b3d08f8607df9b4483b0dc4d8d5d6 Assembly-CSharp.dll:.ColorPerPlayer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NetworkCharacter
@@ -341,11 +344,13 @@ a2d612afa0d90f75edf1d10832a65609 Assembly-CSharp.dll:.JumpAndRunMovement
 d1755adc44fcb9e44c42a5889d35f7a0 Assembly-CSharp.dll:.MoveByKeys
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.QuitOnEscapeOrBack
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:ExitGames.Demos.DemoAnimator.PlayerNameInputField
+731e348a40daac21af969265f1f2cc16 Assembly-CSharp.dll:.TankDamage
 bd391be401e6d3724720058620cce6e5 Assembly-CSharp.dll:.ToHubButton
 6475769091568e8685a22e493bb5795b Assembly-CSharp.dll:.GUIFriendFinding
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OnClickRightDestroy
 47d4dbb91b8073a64be47276b7d4f29a Assembly-CSharp.dll:ExitGames.Demos.DemoAnimator.GameManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OnDoubleclickDestroy
+91d9dad969d580683821a759b1448471 Assembly-CSharp.dll:.GameMgr
 4b8b25ed60c1bb417f20991003ba0256 Assembly-CSharp.dll:.WorkerMenu
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FPSCounter
 604f5f55c1cc414f64da1990b36ff015 Assembly-CSharp.dll:.PhotonView
@@ -354,7 +359,3 @@ b2dc25029b6f083ffbbdf9df269f825a Assembly-CSharp.dll:.InRoomChat
 a412f64ff4e4667098f82b7fa0bf56e2 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.PlatformerCharacter2D
 54a26a95db9c623b6eb6fc01ae3ef891 Assembly-CSharp.dll:.CubeExtra
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-731e348a40daac21af969265f1f2cc16 Assembly-CSharp.dll:.TankDamage
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameMgr
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BillboardCanvas
-3d3bd5391d1e7d2ba21aeefd6b337c5f Assembly-CSharp.dll:.DisplayUserId
